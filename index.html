@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡瑜辰個人履歷</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;500;400&family=Noto+Sans+TC:wght@700;500;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- 幾何背景 -->
+  <div class="background-shapes"></div>
+  <button class="theme-toggle" id="themeToggle" aria-label="切換主題">
+    <i class="fa-solid fa-moon"></i>
+  </button>
+  <main class="main-container">
+    <aside class="sidebar reveal">
+      <div class="avatar-wrap">
+        <img src="profile.jpg" class="avatar" alt="簡瑜辰 個人照片">
+        <div class="avatar-ring"></div>
+      </div>
+      <h1 class="name">簡瑜辰</h1>
+      <p class="subtitle">中原大學工業與系統工程學系<br>碩士一年級</p>
+      <div class="contact">
+        <a href="mailto:david1234566430303@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="badge-list">
+        <span class="badge"><i class="fa-solid fa-certificate"></i> AI 規劃師</span>
+        <span class="badge"><i class="fa-solid fa-certificate"></i> MOS 大師級</span>
+        <span class="badge"><i class="fa-solid fa-language"></i> TOEIC 420</span>
+      </div>
+    </aside>
+    <section class="content">
+      <div class="card intro reveal">
+        <p class="motto">設計 × 工業工程<br><span>“實踐所學，創新未來。”</span></p>
+        <h2>
+          自我介紹
+          <button class="toggle-btn" id="aboutToggle" aria-label="展開/收合自我介紹">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </h2>
+        <div class="about-content" id="aboutContent">
+          <p>
+            我是中原大學工業與系統工程學系應屆碩一生，具備扎實的學術背景與實務經驗。大學期間，積極參與愛樂社並舉辦多場活動，深刻體會溝通與團隊合作的重要性。為提升專業能力，主動學習文書處理與簡報技巧，取得 Microsoft Office Specialist (MOS) 大師級證照，顯著提升工作效率與專業度。
+          </p>
+          <p>
+            大三於鴻海集團實習一年，專注生產管理，熟悉生產排程、BOM、MES、SCADA、Oracle EBS。參與 HoloLens 2 與 DataMesh 的產線異常視覺化專案，並開發多項自動化腳本（如 MES 帳號自動關聯、設備管理單據自動篩選、EBS-MES 工單開立自動化）。後續參與 USR 萌芽型計畫深化自動化技術。
+          </p>
+          <p>
+            大四起接觸資料分析、機器學習與神經網路，建立對資料領域的濃厚興趣與未來目標。研究所專注資料探勘與分析，參與全國大數據競賽、設計會計報帳自動化，並於佳格儲運部實習優化物流流程。
+          </p>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h2>專業技能</h2>
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fa-solid fa-chart-line"></i> 資料分析 / 探勘<br><span>Python、Excel、Power BI</span></div>
+          <div class="skill-item"><i class="fa-solid fa-robot"></i> 自動化流程設計<br><span>Power Automate Desktop</span></div>
+          <div class="skill-item"><i class="fa-solid fa-industry"></i> 製造系統運用<br><span>MES、SCADA、Oracle EBS</span></div>
+          <div class="skill-item"><i class="fa-solid fa-comments"></i> 專案規劃 & 協作</div>
+          <div class="skill-item"><i class="fa-solid fa-file-powerpoint"></i> 文書簡報<br><span>MOS 大師級</span></div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h2>亮點經歷</h2>
+        <ul class="timeline">
+          <li>
+            <span class="dot"></span>
+            <div>
+              <strong>鴻海集團生產管理實習</strong><br>
+              實習一年，參與產線異常視覺化、MES/EBS 自動化專案
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div>
+              <strong>USR 萌芽型計畫</strong><br>
+              與鴻海合作，自動化腳本優化
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div>
+              <strong>佳格儲運部實習</strong><br>
+              物流與退貨流程優化
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div>
+              <strong>全國中小學大數據競賽</strong><br>
+              資料清理、特徵工程與模型運用實戰
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h2>興趣＆自我成長</h2>
+        <ul class="interests-list">
+          <li><i class="fa-solid fa-music"></i> 音樂活動規劃與表演</li>
+          <li><i class="fa-solid fa-basketball"></i> 運動（籃球、羽球）</li>
+          <li><i class="fa-solid fa-brain"></i> 資料科學與自動化新技術探索</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 簡瑜辰 | 設計師風格自我介紹
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
